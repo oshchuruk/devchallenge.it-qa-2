@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OpenWeatherMap Test Suite">
+    <test name="OpenWeatherMap Tests" preserve-order="true">
+        <classes>
+            <class name="CurrentWeatherOneCity"></class>
+            <class name="CurrentWeatherMultipleCitiesByIds"></class>
+            <class name="CurrentWeatherMultipleCitiesInBox"></class>
+            <class name="CurrentWeatherMultipleCitiesInCircle"></class>
+            <class name="ForecastOneCity"></class>
+        </classes>
+    </test>
+</suite>
